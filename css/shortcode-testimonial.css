@@ -1,0 +1,19 @@
+.testimonial-card .card-img-bottom {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.testimonial-card .card-title {
+  font-weight: bold;
+}
+.testimonial-card .card-text {
+  font-style: italic;
+}
+.testimonial-card .card-text::before {
+  content: open-quote;
+}
+.testimonial-card .card-text::after {
+  content: close-quote;
+}
